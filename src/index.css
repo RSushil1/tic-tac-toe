@@ -57,18 +57,18 @@ body {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #67ff9c;
+  border: 1px solid #ff1c1c;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 80px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 80px;
 }
 
 .board-row:after {
@@ -78,7 +78,11 @@ body {
 }
 
 .status {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 34px;
+  
 }
 .game {
   display: flex;
@@ -86,5 +90,5 @@ body {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 5px;
 }
